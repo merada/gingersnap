@@ -1,0 +1,121 @@
+/*
+Theme Name: Gingersnap
+Theme URI: https://github.com/merada
+Author: Merada Richter
+Author URI: https://github.com/merada
+Description: A simple theme for a blog.
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: gingersnap
+*/
+
+html {
+	height: 100%;
+	background:#ffffff;
+	line-height: 1.5em;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+#site-header {
+	text-align: center;
+	box-shadow: 0 4px 6px -6px #222;
+}
+
+#site-header h1 {
+	font-size:38px;
+	color: #808080;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+#site-header-menu a {
+	color: #a0a0a0;
+}
+
+#site-header-menu a:hover {
+	color: #c0c0c0;
+}
+
+#site-header-menu ul {
+	padding:0px;
+}
+
+#site-header-menu li {
+	display: inline-block;
+	padding: 0 8px;
+}
+
+#site-container {
+	max-width: 855px;
+	margin:0 auto;
+}
+
+#site-content {
+	float:left;
+	width:525px;
+	background: #fff;
+	padding: 22px;
+	border-radius:5px;
+}
+
+#site-content h1 {
+	color: #777777;
+}
+
+#site-sidebar {
+	width:220px;
+	float:right;
+	padding: 22px;
+	border-radius:5px;
+	background: #fff;
+}
+
+#site-sidebar .widget-title {
+	color: #777777;
+	font-size: 16px;
+}
+
+#site-sidebar ul {
+	padding: 0px;
+}
+
+#site-sidebar li {
+	font-size: 12px;
+	line-height: 1.5em;
+}
+
+#site-footer {
+	clear:both;
+	color: #a0a0a0;
+	background-color: #fbfbfb;
+	border-top: 1px solid #e0e0e0;
+	text-align:center;
+}
+
+#site-footer h1 {
+	font-size:10px;
+	font-weight: 100;
+	text-transform: uppercase;
+}
+
+#site-footer a:hover {
+	color: #c0c0c0;
+}
+
+#site-footer ul {
+	list-style-type: none;
+}
+
+#site-footer li {
+	display: inline-block;
+}
+
+#site-footer .icon {
+	color: #777777;
+	font-size: 32px;
+}
