@@ -1,0 +1,2 @@
+# gingersnap
+Wordpress theme
